@@ -1,0 +1,5 @@
+Product Code    |   Product Name    |   Product Price
+-----------------------------------------------------
+P-01            |   Pepsi           |   30.00
+P-02            |   Pepsi           |   30.00
+CC-01           |   Coca Cola       |   50.00

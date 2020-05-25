@@ -1,2 +1,2 @@
-# vending-machine-application
+# Vending Machine
 Vending machine design solution

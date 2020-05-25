@@ -1,2 +1,2 @@
 # Vending Machine
-Vending machine design solution
+Java based vending machine design solution, using state design pattern.

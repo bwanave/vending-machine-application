@@ -18,12 +18,6 @@ class SnacksVendingMachineTest
         vendingMachine = new SnacksVendingMachine(new StaticItemService());
     }
 
-    @AfterEach
-    void afterEach()
-    {
-        vendingMachine.reset();
-    }
-
     @Test
     void collectValidCashTest()
     {
@@ -52,5 +46,11 @@ class SnacksVendingMachineTest
         vendingMachine.collectCash(BigDecimal.valueOf(100));
         vendingMachine.cancelTransaction();
         Assertions.assertEquals(BigDecimal.ZERO, vendingMachine.getCollectedCash());
+    }
+    
+    @AfterEach
+    void afterEach()
+    {
+        vendingMachine.reset();
     }
 }
